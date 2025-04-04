@@ -1,0 +1,51 @@
+.column {
+    flex-direction: column;
+    margin: 0;
+    grid-area: b;
+}
+
+.column div {
+    margin: 0;
+}
+
+.image {
+    grid-area: a;
+}
+
+img {
+    margin: 0;
+    width: 100%;
+}
+
+.description {
+    margin-top: 15px;
+        
+}
+/* create grid layout of the container */
+.d-grid {
+    display: grid;
+    max-width: fit-content;
+    margin: 0;
+}
+
+.activity {
+    grid-template-areas: "a b"
+    "c c";
+    gap: 15px;
+}
+/* on fone screens change the layout of the container */
+@media screen and (max-width:680px) {
+    .activity {
+        grid-template-areas: "a"
+        "b"
+        "c";
+    }
+}
+
+main {
+    background-color: #FEFDE9;
+}
+
+.title {
+    text-align: left;
+}

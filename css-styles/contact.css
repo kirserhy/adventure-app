@@ -1,0 +1,38 @@
+/* maake all elements in form appear in column and start from the left */
+.form, .message label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form div, .form p {
+    margin: 0;
+    padding-bottom: 15px;
+
+}
+
+form input {
+    margin-right: 10px;
+}
+
+.button-submit {
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+main {
+    background-color: #FEFDE9;
+}
+
+form {
+    background-color: beige;
+    max-width: fit-content;
+    padding: 30px;
+}
+/* put inputs in column */
+@media screen and (max-width: 680px ) {
+    form .d-flex {
+        flex-direction: column;
+        gap: 15px;
+    } 
+}

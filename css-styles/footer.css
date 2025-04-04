@@ -1,0 +1,36 @@
+.footer {
+    background-color: #8EB2AC;
+    text-align: center;
+   
+}
+
+footer {
+    width: 100vw;
+    text-align: center; 
+    padding: 30px;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 680px) {
+    .f-12 {
+        font-size: 10px;
+    }    
+}
+/* made the layout of the entire page so that the header at the top, footer at the bottom, and main covers the rest of the screen  */
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    width: 100vw;
+}
+
+header {
+    width: 100vw;
+}

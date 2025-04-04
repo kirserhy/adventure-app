@@ -1,0 +1,18 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.bg-mint {
+    background-color: #8EB2AC;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.big-container {
+    max-width: 1440px;
+}

@@ -1,0 +1,20 @@
+/* made the image appear on the screen in full width and brighten down the image */
+.img-container {
+    background: url(/images/switzerland-1391937_1920.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 30rem; 
+    filter: brightness(0.5);
+}
+
+main {
+    background-color: #FEFDE9;
+}
+
+.bold {
+    font-weight: 700;
+}
+/* made the video in full size in container */
+iframe {
+    width: 100%;
+}
